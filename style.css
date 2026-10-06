@@ -1,16 +1,28 @@
 :root {
-    --primary-bg: #e3e3e3;
-    --primary-text: #444;
+    --primary-bg: #f5f3ed;
+    --primary-text: #3f414d;
+    --accent-dark: #545775; 
+    --accent-blue: #718f94;
+    --accent-green: #90b494;
+    --light-green: #bfc8ad;
     --standard-gap: 40px;
+}
+header {
+    background-color: var(--accent-dark);
+    color: whitesmoke;
+    padding: 30px;
+    border-bottom: 6px solid var(--accent-green);
 }
 
 body  {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: var(--primary-bg);
     color: var(--primary-text);
+    margin: 0;
+    line-height: 1.6;
 }
 #projects article {
-    margin: var(--primary-text);
+    margin: var(--standard-gap);
 }
 nav {
     background-color: rgba(255, 248, 220, 0.386);
