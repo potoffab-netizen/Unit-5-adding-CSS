@@ -1,4 +1,32 @@
 :root {
+    --primary-bg: #e3e3e3;
+    --primary-text: #444;
+    --standard-gap: 40px;
+}
+
+body  {
+    font-family: sans-serif;
+    background: var(--primary-bg);
+    color: var(--primary-text);
+}
+#projects article {
+    margin: var(--primary-text);
+}
+nav {
+    background-color: rgba(255, 248, 220, 0.386);
+}
+/*.wayfinder  {
+    background: red;
+}
+/*#menu {
+    background-color: blue;
+}
+/*section {
+margin: 20px;
+padding: 20px;
+border: 10px 
+}
+/*:root {
     --primary-bg:var(--primary-bg);
     --highlight:var(--primary-bg);
     --page-margin: 6rem;
