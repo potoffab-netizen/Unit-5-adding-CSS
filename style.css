@@ -1,0 +1,19 @@
+:root {
+    --primary-bg:var(--primary-bg);
+    --highlight:var(--primary-bg);
+    --page-margin: 6rem;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: var(--primary-bg);
+    color: var (--primary-text);
+    border-top: 20px solid var(--secondary-bg);
+    margin: 0;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: normal;
+    border-bottom: 1px solid var(--secondary-bg);
+}
